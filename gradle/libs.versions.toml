@@ -3,9 +3,11 @@
 
 [versions]
 guava = "33.4.5-jre"
+kotlinx-coroutines = "1.7.3"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.1.20" }
